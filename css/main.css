@@ -1,0 +1,59 @@
+/* SCSS RGB */
+body {
+  background-color: rgb(230, 230, 230);
+  background: linear-gradient(to bottom right, rgb(41, 115, 115) 10%, rgb(230, 230, 230) 35%);
+  color: rgb(57, 57, 58);
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  margin: 0 auto;
+  border-left: 0.3rem dotted rgb(255, 133, 82);
+  -o-border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 133, 82) 70%, rgba(255, 255, 255, 0) 100%) 1;
+     border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 133, 82) 70%, rgba(255, 255, 255, 0) 100%) 1;
+  position: sticky;
+}
+
+.pretitle {
+  font-size: 0.7rem;
+  color: rgb(41, 115, 115);
+  margin-top: 0.5rem;
+  margin-left: -1rem;
+  z-index: -1;
+}
+
+div#pre-header {
+  font-size: 0.115rem;
+  line-height: 0.13rem;
+  margin-left: -1rem;
+  margin-top: -0.05rem;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-left: 1rem;
+  padding-bottom: 20rem;
+}
+
+.entry {
+  margin-top: 0.4rem;
+}
+
+a:link {
+  color: rgb(57, 57, 58);
+  -webkit-text-decoration: dashed overline;
+          text-decoration: dashed overline;
+}
+
+a:hover {
+  text-decoration-color: rgb(41, 115, 115);
+  color: rgb(255, 133, 82);
+}
+
+.date {
+  color: rgb(41, 115, 115);
+  padding-bottom: 0.1rem;
+  font-size: smaller;
+}/*# sourceMappingURL=main.css.map */
