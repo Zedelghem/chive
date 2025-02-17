@@ -1,7 +1,9 @@
 /* SCSS RGB */
 body {
   background-color: rgb(230, 230, 230);
-  background: linear-gradient(to bottom right, rgb(41, 115, 115) 10%, rgb(230, 230, 230) 35%);
+  background: radial-gradient(circle, rgb(41, 115, 115) 0.1%, rgb(230, 230, 230) 50%);
+  background-position-x: -25vw;
+  background-position-y: -40vh;
   color: rgb(57, 57, 58);
   font-family: "Courier New", Courier, monospace;
   font-size: small;
@@ -14,7 +16,7 @@ body {
 
 .pretitle {
   font-size: 0.7rem;
-  color: rgb(41, 115, 115);
+  color: rgb(57, 57, 58);
   margin-top: 0.5rem;
   margin-left: -1rem;
   z-index: -1;
